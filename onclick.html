@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <p >{{info}}{{showInfo}}</p>
+    <button v-on:click="showInfo">按钮</button>
+    <button @click="num+=1">{{num}}</button>
+
+</div>
+<script type="text/javascript">
+
+    var app = new Vue({
+        el: "#app",
+        data: {
+            info: "info",
+            num:1
+        },
+        methods: {
+            showInfo() {
+                this.info="123"
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

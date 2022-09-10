@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+             #box{
+
+             }
+    </style>
+</head>
+<body>
+<div id="box">
+   <button @click="btnClick1(name,$event)">button1</button>
+   <button @click="btnClick2">button2</button>
+   <button @click="btnClick3">button3</button>
+   <button @click="btnClick4">button4</button>
+</div>
+<script type="text/javascript">
+  var app=new Vue({
+      el:"#box",
+      data:{
+          name:"Tom"
+      },
+      methods:{
+          btnClick1(name,event){
+              console.log(name,event)
+          },
+          btnClick2(name){
+              console.log(name)
+          },
+          btnClick3(event){
+              console.log(event)
+          },
+          btnClick4(name,event){
+              console.log(name,event);
+          }
+      }
+  })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <ul>
+        <li v-for="item in letters" :key="item">{{item}}</li>
+    </ul>
+    <button @click="btnClick">button</button>
+</div>
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello",
+            citys: ["北京", "上海", "广州", "深圳"],
+            letters: ["A", "B", "C", "D","E"],
+            numbers:[1,2,3,4,5]
+        },
+        methods: {
+            btnClick(){
+                console.log("click")
+                //this.letters[0]="aaaaa"
+                this.letters.splice(0,1,"aaaa")
+
+                // this.letters.push("aaaaaa")
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

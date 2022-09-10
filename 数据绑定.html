@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+  <div id="box">
+      单向绑定：<input v-bind:value="message"><br>
+      双向绑定：<input v-model:value="message">
+  </div>
+ <script type="text/javascript">
+     var app=new Vue({
+         el:"#box",
+         data:{
+             message:"Hello"
+         }
+     })
+ </script>
+
+</body>
+</html>

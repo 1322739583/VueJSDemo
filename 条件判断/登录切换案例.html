@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+      <span v-if="useName">
+          <label for="username">用户名</label>
+          <input type="text" id="username" placeholder="输入用户名" key="username"/>
+      </span>
+    <span v-else>
+          <label for="mail">邮箱</label>
+        <input type="text" id="mail" placeholder="输入邮箱" key="mail"/>
+    </span>
+      <button @click="useName=!useName">切换类型</button>
+</div>
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#box",
+        data: {
+            useName:true
+        },
+        methods: {
+        }
+    })
+</script>
+
+</body>
+</html>

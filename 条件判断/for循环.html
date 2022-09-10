@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+<!--1.简单使用    -->
+    <ul>
+        <li v-for="item in cities">{{item}}</li>
+    </ul>
+<!--    2.添加索引-->
+    <ul>
+        <li v-for="(item,index) in cities">{{index+1}}:{{item}}</li>
+    </ul>
+
+<!-- 3.遍历对象   -->
+    <ul>
+        <li v-for="(key,value,index) in info">{{key}}-{{value}}-{{index}}</li>
+    </ul>
+
+</div>
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello",
+            info:{
+              name:"Tom",
+              age:20
+            },
+            cities:["北京","上海","广州","深圳"]
+        },
+        methods: {}
+    })
+</script>
+
+</body>
+</html>
