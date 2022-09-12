@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+        <p>{{fullName}}</p>
+        <p>{{fullName}}</p>
+        <p>{{fullName}}</p>
+        <p>{{getFullName()}}</p>
+        <p>{{getFullName()}}</p>
+        <p>{{getFullName()}}</p>
+</div>
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello",
+            citys: ["北京", "上海", "广州", "深圳"],
+            letters: ["A", "B", "C", "D", "E"],
+            numbers: [1, 2, 3, 4, 5],
+            firstName:"Tom",
+            lastName:"Jack",
+            books:[
+                {id:"1",name:"Java",price:50},
+                {id:"1",name:"JavaScript",price:33},
+                {id:"1",name:"CSS",price:20},
+                {id:"1",name:"Html",price:10}
+            ]
+        },
+        computed:{
+            fullName(){
+                console.log("fullName by computed")
+                return this.firstName+" "+this.lastName
+            },
+            totalPrice(){
+                let sum=0
+                for (let i = 0; i < this.books.length; i++) {
+                    sum+=this.books[i].price
+                }
+                return sum
+            }
+        },
+        methods: {
+            getFullName(){
+                console.log("getFullName by methods");
+                return this.firstName+" "+this.lastName
+            }
+        }
+    })
+</script>
+
+</body>
+</html>
