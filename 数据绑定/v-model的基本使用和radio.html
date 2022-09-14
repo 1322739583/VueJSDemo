@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+   <input  v-model="message"  ><span>{{message}}</span>
+   <label for="male">
+   <input type="radio" id="male"  value="male"   v-model:checked="isMan"> 男：
+   </label >
+    <label for="female">
+   <input type="radio" id="female" value="female"   v-model="gender" > 女：<br>
+
+    <span>选择了{{gender}}</span>
+    </label>
+</div>
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello",
+            gender:"male",
+            isMan:true,
+
+            citys: ["北京", "上海", "广州", "深圳"],
+            letters: ["A", "B", "C", "D", "E"],
+            numbers: [1, 2, 3, 4, 5]
+        },
+        methods: {}
+    })
+</script>
+
+</body>
+</html>

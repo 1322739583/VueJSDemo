@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <mycpn></mycpn>
+    <mycpn></mycpn>
+    <mycpn></mycpn>
+</div>
+
+<template id="cpn">
+    <div>
+        <span>计算器：</span><br>
+        <button @click="increment()">+</button>
+        <span>{{counter}}</span>
+        <button @click="decrement()">-</button>
+    </div>
+</template>
+
+
+<script type="text/javascript">
+
+    // const vueC = Vue.extend({
+    //     template: `
+    //                 <div>
+    //                       <h1>Title</h1>
+    //                       <p>This is content</p>
+    //                       <p>This is content</p>
+    //                       <p>This is content</p>
+    //                 </div>`
+    // })
+    var obj={
+        counter:0
+    }
+    Vue.component("mycpn", {
+        template: `#cpn`,
+        data() {
+            return obj
+        },
+        methods: {
+            increment() {
+                return this.counter++
+            },
+            decrement() {
+                return this.counter--
+            }
+        }
+    })
+
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello",
+            citys: ["北京", "上海", "广州", "深圳"],
+            letters: ["A", "B", "C", "D", "E"],
+            numbers: [1, 2, 3, 4, 5]
+        }
+    })
+
+
+</script>
+
+</body>
+</html>

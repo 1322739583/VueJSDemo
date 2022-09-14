@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <mycpn :c_cities="citys" cMessage="message" ></mycpn>
+</div>
+
+<template id="cpn">
+    <div>
+      <ul>
+          <li v-for="item in c_cities">{{item}}</li>
+      </ul>
+        <span>{{cMessage}}</span>
+    </div>
+</template>
+
+
+<script type="text/javascript">
+    Vue.component("mycpn", {
+        template: `#cpn`,
+        props: {
+            c_cities:{
+                type:Array,
+                required:true,
+                default:[]
+            },
+            cMessage:{
+                type:String,
+                default: "aaaa",
+                validate:function (value) {
+                    return value.length>3
+                }
+            }
+        }
+    })
+
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello",
+            citys: ["北京", "上海", "广州", "深圳"]
+        }
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <cpn2></cpn2>
+</div>
+
+
+<script type="text/javascript">
+
+    const vueC = Vue.extend({
+        template: `
+                    <div>
+                          <h1>Title</h1>
+                          <p>This is from child</p>
+                    </div>`
+    })
+
+    const vueC2 = Vue.extend({
+        template: `
+                    <div>
+                          <h1>Title</h1>
+                          <p>This is from parent</p>
+
+                          <cpn1></cpn1>
+                    </div>`,
+        components:{
+            cpn1:vueC
+        }
+    })
+
+   // Vue.component("mycpn",vueC)
+
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello",
+            citys: ["北京", "上海", "广州", "深圳"],
+            letters: ["A", "B", "C", "D", "E"],
+            numbers: [1, 2, 3, 4, 5]
+        },
+        methods: {},
+        components:{
+            cpn2:vueC2
+        }
+    })
+
+
+
+
+</script>
+
+</body>
+</html>

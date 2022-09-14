@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <mycpn  @btn_click="excRequest()"></mycpn>
+</div>
+
+<template id="cpn">
+    <div >
+          <!--第二步：传值和点击事件          -->
+          <button v-for="item in catalog" @click="itemClick(item)">{{item.name}}</button>
+    </div>
+</template>
+
+
+<script type="text/javascript">
+    Vue.component("mycpn", {
+        template: `#cpn`,
+        //第一步：定义数据
+        data(){
+            return {
+                catalog:[
+                    {id:"1",name:"家用电器"},
+                    {id:"2",name:"手机数码"},
+                    {id:"3",name:"京东超市"},
+                    {id:"4",name:"主机电脑"}
+                ]
+            }
+        },
+        methods:{
+            //3.实现点击事件，并把点击事件传给父元素
+            itemClick(item){
+                console.log(item)
+                this.$emit("btn_click",item)
+            }
+        }
+    })
+
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello"
+        },
+        methods: {
+            //4.父组件发生网络请求
+            excRequest(){
+                console.log("开始执行网络请求")
+            }
+        }
+
+    })
+</script>
+
+</body>
+</html>
