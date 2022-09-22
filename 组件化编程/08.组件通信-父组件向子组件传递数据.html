@@ -12,9 +12,14 @@
 </head>
 <body>
 <div id="box">
+    <!--数据是来着父组件的，需要在子组件中做展示-->
+    <!--c_cities表示子组件变量，citys表示父组件变量，这里实际上就是子组件和父组件完成对接-->
+    <!--但实际上，这种传值方式是不太好的，因为下面的变量名是非常类似的，总觉得有点多余-->
     <mycpn :c_cities="citys" :c_message="message"></mycpn>
 </div>
 
+
+<!--这里的需求是子组件需要父组件提供数据给子组件进行展示-->
 <template id="cpn">
     <div>
       <ul>
@@ -28,6 +33,7 @@
 <script type="text/javascript">
     Vue.component("mycpn", {
         template: `#cpn`,
+        //props是支持物，道具的意思，但为什么要写在子组件里面呢？
         props:['c_cities','c_message']
     })
 
@@ -35,6 +41,7 @@
         el: "#box",
         data: {
             message: "hello",
+            //网络请求获取数据后，将数据传给子组件展示
             citys: ["北京", "上海", "广州", "深圳"]
         }
     })

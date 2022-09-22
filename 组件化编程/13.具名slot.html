@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+     <mycpn>
+             <button slot="return">返回</button>
+             <span slot="return">主页</span>
+             <button slot="return">菜单</button>
+     </mycpn>
+
+</div>
+
+<template id="mycpn">
+    <slot name="return"><button>return</button></slot>
+    <slot name="title"><span>title</span></slot>
+    <slot name="menu"><button>menu</button></slot>
+    <slot></slot>
+</template>
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello",
+            citys: ["北京", "上海", "广州", "深圳"],
+            letters: ["A", "B", "C", "D", "E"],
+            numbers: [1, 2, 3, 4, 5]
+        },
+        methods: {},
+        components:{
+            cpn:{
+                template:`#mycpn`
+            }
+
+        }
+    })
+</script>
+
+</body>
+</html>

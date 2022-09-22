@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+
+
+
+<div id="box">
+    <cpn>
+        <button>主页</button>
+    </cpn>
+    <br>
+    <cpn>
+        <span>关于</span>
+    </cpn>
+    <br>
+    <cpn>
+        <input type="checkbox">同意
+    </cpn>
+</div>
+
+<template id="mycpn">
+    <div>
+        <div>other</div>
+       <!--如果没有给slot传值，那么默认就是里面的内容-->
+        <slot><button>按钮</button></slot>
+    </div>
+</template>
+
+<script type="text/javascript">
+
+
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello",
+            citys: ["北京", "上海", "广州", "深圳"],
+            letters: ["A", "B", "C", "D", "E"],
+            numbers: [1, 2, 3, 4, 5]
+        },
+        methods: {},
+        components:{
+            cpn:{
+                template:`#mycpn`
+            }
+
+        }
+    })
+</script>
+
+</body>
+</html>

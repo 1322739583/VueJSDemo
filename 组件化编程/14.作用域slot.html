@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+     <cpn >
+         <!--slot这个名字也是随便取的-->
+         <!--这种写法已经废弃，可以用v-slot:name的形式-->
+         <!--这个写法非常的奇怪-->
+         <template slot-scope="slot">
+             <span >{{slot.data.join("+")}}</span>
+         </template>
+     </cpn>
+</div>
+
+<template id="mycpn">
+    <div>
+        <slot :data="languages">
+            <ul>
+                <li v-for="item in languages">{{item}}</li>
+            </ul>
+        </slot>
+    </div>
+</template>
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message: "hello",
+            citys: ["北京", "上海", "广州", "深圳"],
+            letters: ["A", "B", "C", "D", "E"],
+            numbers: [1, 2, 3, 4, 5]
+        },
+        methods: {},
+        components:{
+            cpn:{
+                template:`#mycpn`,
+                data(){
+                    return {
+                        languages:["JavaScript","Java","C","C++","HTML","CSS"]
+                    }
+                }
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box {
+
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+       <student :msg="message" name="张三" :age="18" gender="男"></student>
+<!--       <hr>-->
+<!--       <student name="李四" age="18" gender="女"></student>-->
+</div>
+<!--1.定义子组件模板-->
+<template id="studentInfo">
+    <div>
+        <p>{{msg}}</p>
+        <p>姓名：{{name}}</p>
+        <p>年龄：{{myAge}}</p>
+        <p>性别：{{gender}}</p>
+        <button @click="myAge++">+</button>
+        <button @click="myAge--">-</button>
+    </div>
+
+</template>
+
+
+<script type="text/javascript">
+<!--2.注册子组件-->
+  Vue.component("student",{
+      template:`#studentInfo`,
+      data(){
+          return{
+             // msg: "我是一个好学生"
+              myAge:this.age
+          }
+      },
+      //3.定义属性
+      //第一种方式：
+      // props:["name","age","gender","msg"]
+      //第二种方式：
+      // props:{
+      //     name:String,
+      //     age:Number,
+      //     gender:String
+      // }
+      //第三种方式：
+      props:{
+          name:{
+              type:String,
+              required:true
+          },
+          age:{
+              type:Number,
+              required: false,
+              default:99
+          },
+          gender: {
+              type:String
+          },
+          msg:{
+              type:String,
+              default: "我是一个好学生"
+          }
+
+      }
+  })
+    var app = new Vue({
+        el: "#box",
+        data: {
+            message:"你叫什么名字",
+            age:25
+        },
+        methods: {}
+    })
+</script>
+
+</body>
+</html>
