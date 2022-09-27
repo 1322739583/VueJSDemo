@@ -11,28 +11,28 @@ const router=new VueRouter({
     },
     {
       path:"/home",
-      component:()=>import("../views/home/Home"),
+      component:()=>import("@/views/home/Home"),
       meta:{
         title:"主页"
       }
     },
     {
       path:"/category",
-      component:()=>import("../views/category/Category"),
+      component:()=>import("@/views/category/Category"),
       meta:{
         title:"目录"
       }
     },
     {
       path: "/shopcar",
-      component:()=>import("../views/shopcar/Shopcar"),
+      component:()=>import("@/views/shopcar/Shopcar"),
       meta:{
         title:"购物车"
       }
     },
     {
       path: "/profile",
-      component:()=>import("../views/profile/Profile"),
+      component:()=>import("@/views/profile/Profile"),
       meta:{
         title:"我的"
       }
