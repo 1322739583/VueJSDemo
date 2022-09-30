@@ -14,9 +14,26 @@
 
 <script>
 import Navbar from "@/components/common/navbar/Navbar";
+import {getHomeMultiData} from "@/network/home";
 export default {
   name: "Home",
-  components: {Navbar}
+  components: {Navbar},
+  data(){
+    return {
+       banner:[],
+      recommend:[]
+    }
+  },
+  created() {
+    console.log("create");
+    getHomeMultiData().then(res=>{
+      console.log(res)
+      //可以做一些细化
+        this.banner=res.data.banner.list
+        this.recommend=res.data.recommend.list
+    })
+
+  }
 }
 </script>
 
