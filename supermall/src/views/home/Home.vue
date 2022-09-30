@@ -1,11 +1,11 @@
 <template>
-<!--  <router-view>-->
-<!--  </router-view>-->
+  <!--  <router-view>-->
+  <!--  </router-view>-->
   <div class="home">
     <navbar class="nav-home">
-      <div slot="center" >购物街</div>
+      <div slot="center">购物街</div>
     </navbar>
-    <home-swiper  :banner="banner"/>
+    <home-swiper :banner="banner"/>
     <recommand-view :recommands="recommend"/>
     <feature-view/>
     <tab-control :titles="['流行','新款','精选']"/>
@@ -114,8 +114,7 @@
   </div>
 
 
-
-<!--  <div>home</div>-->
+  <!--  <div>home</div>-->
 </template>
 
 <script>
@@ -137,19 +136,33 @@ export default {
     FeatureView,
     RecommandView
   },
-  data(){
+  data() {
     return {
-       banner:[],
-      recommend:[]
+      banner: [],
+      recommend: [],
+      goods: {
+        popular:{
+           page:0,
+           list:[]
+        },
+        news:{
+          page:0,
+          list:[]
+        },
+        sells:{
+          page:0,
+          list:[]
+        }
+      }
     }
   },
   created() {
     console.log("create");
-    getHomeMultiData().then(res=>{
+    getHomeMultiData().then(res => {
       console.log(res)
       //可以做一些细化
-        this.banner=res.data.banner.list
-        this.recommend=res.data.recommend.list
+      this.banner = res.data.banner.list
+      this.recommend = res.data.recommend.list
     })
 
   }
@@ -157,12 +170,12 @@ export default {
 </script>
 
 <style scoped>
-.nav-home{
+.nav-home {
   background-color: var(--color-tint);
   color: white;
 }
 
-.home{
+.home {
   margin-top: 44px;
 }
 
