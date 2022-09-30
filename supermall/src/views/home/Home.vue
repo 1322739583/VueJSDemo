@@ -3,10 +3,11 @@
 <!--  </router-view>-->
   <div class="home">
     <navbar class="nav-home">
-<!--      <div slot="right">123</div>-->
       <div slot="center" >购物街</div>
-<!--      <div slot="left">123</div>-->
     </navbar>
+
+    <home-swiper  :banner="banner"/>
+
   </div>
 
 <!--  <div>home</div>-->
@@ -15,9 +16,11 @@
 <script>
 import Navbar from "@/components/common/navbar/Navbar";
 import {getHomeMultiData} from "@/network/home";
+import HomeSwiper from "@/views/home/childComponents/HomeSwiper";
+
 export default {
   name: "Home",
-  components: {Navbar},
+  components: {HomeSwiper, Navbar},
   data(){
     return {
        banner:[],
