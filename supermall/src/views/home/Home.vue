@@ -120,7 +120,7 @@
 <script>
 
 import Navbar from "@/components/common/navbar/Navbar";
-import {getHomeMultiData} from "@/network/home";
+import {getHomeData, getHomeMultiData} from "@/network/home";
 
 import HomeSwiper from "@/views/home/childComponents/HomeSwiper";
 import RecommandView from "@/views/home/childComponents/RecommandView";
@@ -141,30 +141,47 @@ export default {
       banner: [],
       recommend: [],
       goods: {
-        popular:{
-           page:0,
-           list:[]
+        //这个名字不能随便取，还能做数组下标的骚操作
+        pop: {
+          page: 0,
+          list: []
         },
-        news:{
-          page:0,
-          list:[]
+        new: {
+          page: 0,
+          list: []
         },
-        sells:{
-          page:0,
-          list:[]
+        sell: {
+          page: 0,
+          list: []
         }
       }
     }
   },
+  methods: {
+    getHomeMultiData() {
+      getHomeMultiData().then(res => {
+        console.log(res)
+        //可以做一些细化
+        this.banner = res.data.banner.list
+        this.recommend = res.data.recommend.list
+      })
+    },
+    getHomeData(type) {
+      const page=this.goods[type].page+1
+      getHomeData(type, page).then(res => {
+        console.log(res)
+         //还可以这样写，非常的神奇
+         //data里面的名字不能随便取，还能做数组下标的骚操作
+         this.goods[type].list.push(...res.data.list)
+         this.goods[type].page+=1
+      })
+    }
+  },
   created() {
-    console.log("create");
-    getHomeMultiData().then(res => {
-      console.log(res)
-      //可以做一些细化
-      this.banner = res.data.banner.list
-      this.recommend = res.data.recommend.list
-    })
-
+    this.getHomeMultiData()
+    this.getHomeData('pop')
+    this.getHomeData('new')
+    this.getHomeData('sell')
   }
 }
 </script>
