@@ -48,4 +48,8 @@ export default {
   color: white;
 }
 
+.home{
+  margin-top: 44px;
+}
+
 </style>
