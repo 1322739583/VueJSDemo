@@ -5,12 +5,9 @@
     <navbar class="nav-home">
       <div slot="center" >购物街</div>
     </navbar>
-
     <home-swiper  :banner="banner"/>
-    <recommand-view :recommands="recommend">
-
-    </recommand-view>
-
+    <recommand-view :recommands="recommend"/>
+    <feature-view/>
   </div>
 
 <!--  <div>home</div>-->
@@ -21,10 +18,11 @@ import Navbar from "@/components/common/navbar/Navbar";
 import {getHomeMultiData} from "@/network/home";
 import HomeSwiper from "@/views/home/childComponents/HomeSwiper";
 import RecommandView from "@/views/home/childComponents/RecommandView";
+import FeatureView from "@/views/home/childComponents/FeatureView";
 
 export default {
   name: "Home",
-  components: {RecommandView, HomeSwiper, Navbar},
+  components: {FeatureView, RecommandView, HomeSwiper, Navbar},
   data(){
     return {
        banner:[],
