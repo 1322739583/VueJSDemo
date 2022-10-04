@@ -8,8 +8,10 @@
     <home-swiper :banner="banner"/>
     <recommand-view :recommands="recommend"/>
     <feature-view/>
-    <tab-control :titles="['流行','新款','精选']"/>
-    <goods-list :goods="goods['pop'].list"/>
+    <!-- @tabClick  后面是不能加()的 不然undefined  -->
+    <tab-control :titles="['流行','新款','精选']"  @tabClick="tabClick"/>
+    <goods-list :goods="showGoods"/>
+
     <ul>
 <!--      <li>1</li>-->
 <!--      <li>2</li>-->
@@ -139,6 +141,7 @@ export default {
     FeatureView,
     RecommandView
   },
+
   data() {
     return {
       banner: [],
@@ -157,7 +160,13 @@ export default {
           page: 0,
           list: []
         }
-      }
+      },
+      currentType:"pop"
+    }
+  },
+  computed:{
+    showGoods(){
+      return this.goods[this.currentType].list
     }
   },
   methods: {
@@ -178,6 +187,19 @@ export default {
          this.goods[type].list.push(...res.data.list)
          this.goods[type].page+=1
       })
+    },
+    tabClick(index) {
+      switch (index){
+        case 0:
+          this.currentType="pop"
+          break
+        case 1:
+          this.currentType="new"
+          break
+        case 2:
+          this.currentType="sell"
+          break
+      }
     }
   },
   created() {

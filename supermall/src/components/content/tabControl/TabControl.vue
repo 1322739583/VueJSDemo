@@ -25,6 +25,8 @@ export default {
   methods: {
     itemClick(index) {
       this.curIndex=index
+      //将tab点击传给父组件
+      this.$emit("tabClick",index)
     }
   }
 }
