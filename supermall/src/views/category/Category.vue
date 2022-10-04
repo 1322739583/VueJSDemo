@@ -116,8 +116,22 @@ export default {
   },
   mounted(){
     this.scroll=  new BScroll(".wrapper",{
-
+            probeType:3,
+            pullUpLoad:true,
+            click:true
      })
+
+    this.scroll.on("scroll",pos=>{
+      //console.log(pos)
+    })
+
+    this.scroll.on("pullingUp",()=>{
+      console.log("加载新数据")
+      setTimeout(()=>{
+        this.scroll.finishPullUp()
+      },2000)
+    })
+
   }
 
 }
