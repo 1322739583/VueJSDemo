@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <!--<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>-->
+    <link rel="stylesheet" href="/common/css/reset.css">
+
+    <style rel="stylesheet">
+        #content {
+
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    {{ doYouLike }}
+</div>
+<script type="text/javascript">
+    const app = new Vue({
+        el: "#content",
+        data: {
+             star:5
+        },
+        computed: {
+            doYouLike(){
+                if (this.star>=5){
+                    return "非常满意"
+                }else if (this.star>=4){
+                    return "满意"
+                }else if (this.star>=3){
+                    return "一般"
+                }else if (this.star>=2){
+                    return "不满意"
+                }else {
+                    return "非常不满意"
+                }
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

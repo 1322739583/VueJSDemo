@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <!--<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>-->
+    <link rel="stylesheet" href="/common/css/reset.css">
+
+    <style rel="stylesheet">
+        #content {
+
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    {{ fullname }}
+</div>
+<script type="text/javascript">
+    const app = new Vue({
+        el: "#content",
+        data: {
+            firstName: "Tom",
+            lastName: "Jack"
+        },
+        computed: {
+            fullname(){
+                return this.firstName +" "+ this.lastName
+            }
+        }
+    })
+</script>
+
+</body>
+</html>
