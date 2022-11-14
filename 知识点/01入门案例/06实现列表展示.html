@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!--<link rel="stylesheet" href="/common/css/reset.css">-->
+
+    <style rel="stylesheet">
+        #content {
+
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+     <ul>
+         <!--方式一-->
+         <!--<li>{{cities[0]}}</li>-->
+         <!--<li>{{cities[1]}}</li>-->
+         <!--<li>{{cities[2]}}</li>-->
+         <!--方式二-->
+         <li v-for="city in cities">{{city}}</li>
+     </ul>
+
+</div>
+<script type="text/javascript">
+        Vue.createApp({
+            data(){
+                return{
+                    cities:["温州","广州","深圳"]
+                }
+            },
+            methods:{
+                add(){
+                    this.count++
+                },
+                sub(){
+                    this.count--
+                }
+            }
+        }).mount("#content")
+</script>
+
+</body>
+</html>

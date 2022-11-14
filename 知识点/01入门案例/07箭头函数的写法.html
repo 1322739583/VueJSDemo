@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!--<link rel="stylesheet" href="/common/css/reset.css">-->
+
+    <style rel="stylesheet">
+        #content {
+
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <span>{{count}}</span>
+    <button @click="add()">+</button>
+    <button @click="sub()">-</button>
+
+</div>
+<script type="text/javascript">
+        Vue.createApp({
+            data(){
+                return{
+                    count:0
+                }
+            },
+            methods:{
+                //语法支持，但不能用，作用域问题拿不到data
+                add:()=>{
+                    this.count++
+                },
+                sub(){
+                    this.count--
+                }
+            }
+        }).mount("#content")
+</script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- vue2 cdn -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script> -->
+    <!-- vue3 cdn -->
+    <!--<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!--<script src="./vue.js"></script>-->
+    <style rel="stylesheet">
+        #content {
+
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    {{message}}
+</div>
+<script >
+
+    <!-- vue2写法 -->
+    const app = new Vue({
+        el: "#content",
+        data: {
+            message: "hello"
+        },
+        methods: {}
+    })
+
+    //vue3写法
+
+
+
+
+
+    // import {createApp} from "https://unpkg.com/vue@3/dist/vue.global.js";
+
+     //这个类似于导入，vue2的方式是不可行的
+    // const { createApp } = Vue
+
+    // import {createApp} from "./vue";
+
+    Vue.createApp({
+        //这里只能使用函数的方式，vue2的方式是不行的
+        data() {
+            return {
+                message: 'Hello Vue!'
+            }
+        }
+    }).mount('#app')
+
+</script>
+
+</body>
+</html>

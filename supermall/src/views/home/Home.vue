@@ -5,24 +5,25 @@
     <navbar class="nav-home">
       <div slot="center">购物街</div>
     </navbar>
+   <scroll>
     <home-swiper :banner="banner"/>
     <recommand-view :recommands="recommend"/>
     <feature-view/>
     <!-- @tabClick  后面是不能加()的 不然undefined  -->
     <tab-control :titles="['流行','新款','精选']"  @tabClick="tabClick"/>
     <goods-list :goods="showGoods"/>
-
+   </scroll>
     <ul>
-<!--      <li>1</li>-->
-<!--      <li>2</li>-->
-<!--      <li>3</li>-->
-<!--      <li>4</li>-->
-<!--      <li>5</li>-->
-<!--      <li>6</li>-->
-<!--      <li>7</li>-->
-<!--      <li>8</li>-->
-<!--      <li>9</li>-->
-<!--      <li>10</li>-->
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>7</li>
+      <li>8</li>
+      <li>9</li>
+      <li>10</li>
 <!--      <li>11</li>-->
 <!--      <li>12</li>-->
 <!--      <li>13</li>-->
@@ -130,10 +131,12 @@ import RecommandView from "@/views/home/childComponents/RecommandView";
 import FeatureView from "@/views/home/childComponents/FeatureView";
 import TabControl from "@/components/content/tabControl/TabControl";
 import GoodsList from "@/components/content/goods/GoodsList";
+import Scroll from "@/components/common/scroll/Scroll";
 
 export default {
   name: "Home",
   components: {
+    Scroll,
     GoodsList,
     TabControl,
     Navbar,

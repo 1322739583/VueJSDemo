@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!--<link rel="stylesheet" href="/common/css/reset.css">-->
+
+    <style rel="stylesheet">
+        #content {
+
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+     <span v-once>
+         {{ message }}
+          <br>
+         {{ count }}
+
+     </span><br>
+    <span>
+         {{ message }}
+         <br>
+         {{ count }}
+     </span><br>
+    <button @click="changeData()">改变数据</button>
+</div>
+<script type="text/javascript">
+
+    Vue.createApp({
+        data() {
+            return {
+                count: 0,
+                message: "This is a message"
+            }
+        },
+        methods: {
+            changeData() {
+                this.message = "This is a new message"
+                this.count = 10
+            }
+        }
+    }).mount("#content")
+</script>
+
+</body>
+</html>
