@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="./index.css">
+
+    <style rel="stylesheet">
+        #content {
+
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <template v-if="books.length>=1">
+        <table>
+            <thead>
+            <tr>
+                <th></th>
+                <th>书名</th>
+                <th>日期</th>
+                <th>数量</th>
+                <th>价格</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr :class="{active:currentIndex===index}" v-for="(book,index) in books" @click="itemClick(index)">
+                <td>{{ book.id }}</td>
+                <td>{{ book.name }}</td>
+                <td>{{ book.time }}</td>
+                <td>
+                    <button :disabled="book.num<=1" @click="decreament(index)">-</button>
+                    {{ book.num }}
+                    <button @click="increament(index)">+</button>
+                </td>
+                <td>¥{{ book.price.toFixed(2) }}</td>
+                <td>
+                    <button @click="deleteItem(index)">删除</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <span>总价格:¥{{ totalPrice }}</span>
+    </template>
+    <template v-else>
+        <span>购物车为空</span>
+        <p>欢迎到商场选购！</p>
+    </template>
+</div>
+<script src="./index.js">
+
+</script>
+
+</body>
+</html>

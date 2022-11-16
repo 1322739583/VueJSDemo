@@ -31,7 +31,7 @@ const router = new VueRouter({
       path: "/shopcar",
       component:()=>import("@/views/shopcar/Shopcar"),
       meta:{
-        title:"购物车"
+        title:"01购物车"
       }
     },
     {

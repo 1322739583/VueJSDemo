@@ -1,0 +1,4 @@
+1.实现watch监听message变量
+2.再实现watch监听info变量
+3.watch的完整写法和deep和immediate属性的使用(实现深度监听，和初始化监听)
+4.

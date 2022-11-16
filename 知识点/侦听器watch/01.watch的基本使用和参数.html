@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>-->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!--<link rel="stylesheet" href="/common/css/reset.css">-->
+
+    <style rel="stylesheet">
+        #content {
+
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+     <button @click="changeMsg()">改变message</button>
+     <button @click="changeInfo()">改变info</button>
+</div>
+<script type="text/javascript">
+    Vue.createApp({
+        data() {
+            return {
+                message: "This is a message",
+                info: {name: "Tom", age: 18}
+            }
+        },
+        methods:{
+            changeMsg(){
+                this.message="This is a new message"
+            },
+            changeInfo(){
+                this.info={name:"Mike",age:19}
+                //这样修改是不行的，必须是对象本身发生改变
+                // this.info.name="Mike"
+                // this.info.age=19
+            }
+        },
+        watch: {
+            message(newValue,oldValue){
+                console.log(newValue,oldValue)
+            },
+            info(newValue,oldValue){
+                console.log(newValue,oldValue)
+                //获取原始对象方式一(实际上是创建了新对象)
+                console.log({...newValue})
+                //获取原始对象方式二(推荐)
+                console.log(Vue.toRaw(newValue))
+            }
+        }
+    }).mount("#content")
+</script>
+
+</body>
+</html>

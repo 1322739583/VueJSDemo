@@ -1,0 +1,16 @@
+table{
+    /*border-collapse: unset;*/
+    /*border: 1px solid #cccccc;*/
+    border-spacing: 0;
+}
+thead{
+    background-color: rgba(204, 204, 204, 0.8);
+}
+th,td{
+    border: 1px solid #cccccc;
+    padding: 5px 20px;
+}
+
+.active{
+    background-color: gold;
+}

@@ -27,7 +27,7 @@
             <td>{{item.name}}</td>
             <td>{{item.time}}</td>
             <td>
-                <button @click="decrement(index)">-</button>
+                <button :disabled="item.num<=1" @click="decrement(index)">-</button>
                 {{item.num}}
                 <button @click="increment(index)">+</button>
             </td>
@@ -41,7 +41,7 @@
     <span v-else>购物车为空</span>
 </div>
 
-<script src="vue.js"></script>
+<script src="main.js"></script>
 
 </body>
 </html>

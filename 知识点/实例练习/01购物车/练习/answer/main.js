@@ -13,27 +13,29 @@ var app = new Vue({
         ]
     },
     methods: {
-        increment(index){
-             return this.books[index].num++
+        increment(index) {
+            return this.books[index].num++
         },
-        decrement(index){
-             let temp=this.books[index].num
-             if (temp>0) {
-                 return this.books[index].num--
-             }
+        decrement(index) {
+            let temp = this.books[index].num
+            if (temp > 0) {
+                return this.books[index].num--
+            }
         },
-        removeBookItem(index){
-              this.books.splice(index,1)
+        removeBookItem(index) {
+            this.books.splice(index, 1)
         }
     },
-    computed:{
-      totalPrice(){
-         return this.books.map(book => book.num*book.price).reduce((prev,cur)=>prev+cur)
-      }
+    computed: {
+        totalPrice() {
+            //高级写法，比较难理解，高级不见得是最好的，你也可以用for循环
+            return this.books.map(book => book.num * book.price).reduce((prev, cur) => prev + cur)
+        }
     },
     //有个s别写错了
     filters: {
         formatPrice(price) {
+            //在vue2可以使用过滤器实现，过滤器在vue3被删除了
             return "￥" + price.toFixed(2)
         }
     }
