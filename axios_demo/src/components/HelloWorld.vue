@@ -16,9 +16,13 @@ export default {
   },
   created() {
     axios({
-      url:"http://123.207.32.32:8000/home/multidata"
+      url:"http://localhost:3000/song/url?id=29723022"
     }).then(res=>{
-      this.data=res
+      this.data=res.data
+    })
+
+    axios.get({
+      url:"http://localhost:3000/song/url?id=29723022"
     })
 
   }
@@ -27,18 +31,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>
