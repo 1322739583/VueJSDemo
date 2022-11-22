@@ -17,6 +17,7 @@ export default {
     // const fullname=computed(()=>{
     //   return names.firstname+" "+names.lastname
     // })
+
     //2.写法二
     const fullname = computed({
       get: function () {
@@ -28,6 +29,7 @@ export default {
         names.lastname = temp[1]
       }
     })
+
     //3.修改名字，默认调用set函数
     function setFullname(){
        fullname.value="Jack Tomson"
