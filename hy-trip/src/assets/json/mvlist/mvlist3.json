@@ -1,0 +1,2131 @@
+{
+    "code": 200,
+    "data": [
+    {
+    "id": 14561838,
+    "cover": "http://p1.music.126.net/gKW6cwLoFU1D-9DN8wgdOg==/109951167855639335.jpg",
+    "name": "恋曲1980",
+    "playCount": 34655,
+    "briefDesc": null,
+    "desc": null,
+    "artistName": "五条人",
+    "artistId": 938017,
+    "duration": 0,
+    "mark": 0,
+    "mv": {
+    "authId": 2706703,
+    "status": 0,
+    "id": 14561838,
+    "title": "恋曲1980",
+    "subTitle": "",
+    "appTitle": "",
+    "aliaName": "电影《哥，你好》",
+    "transName": "",
+    "pic4v3": 109951167855639340,
+    "pic16v9": 109951167855639330,
+    "caption": 0,
+    "captionLanguage": "其它",
+    "style": null,
+    "mottos": "",
+    "oneword": null,
+    "appword": "",
+    "stars": null,
+    "desc": "电影《哥，你好》由张栾执导，马丽、常远、魏翔领街主演，贾冰、黄允桐、韩彦博、张一鸣、郝鹏飞、李一宁、李桃夭夭、刘语乔、张佳雯、吕宁主演。\n\n电影推广曲《恋曲1980》正式上线！歌曲改编自罗大佑的《恋曲1980》，全新版本由五条人制作演绎。五条人的重新编曲和演唱演奏，赋予这首八十年代经典情歌新的内涵和韵味，既是向罗大佑致敬，又完全契合了《哥，你好》片中的爱情故事。一首动人魂魄穿越时空的爱情赞歌！今天的欢乐将是明天永恒的回忆。",
+    "area": "大陆",
+    "type": "官方版",
+    "subType": "完整版",
+    "neteaseonly": 0,
+    "upban": 1,
+    "topWeeks": "",
+    "publishTime": "2022-09-08",
+    "online": 1662608491665,
+    "score": 558729,
+    "plays": 34650,
+    "monthplays": 34650,
+    "weekplays": 34650,
+    "dayplays": 34650,
+    "fee": 0,
+    "artists": [
+    {
+    "id": 938017,
+    "name": "五条人"
+    }
+    ],
+    "videos": [
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "TS",
+    "tagSign": "TS_240P",
+    "resolution": 240,
+    "mvtype": "TS"
+    },
+    "tag": "TS_240P",
+    "url": "cloudmusic/b919/core/1a0a/3ff1c69d03c81a2965b3f7830bc94ab3.m3u8",
+    "duration": 161000,
+    "size": 11482330,
+    "width": 426,
+    "height": 240,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "MP4",
+    "tagSign": "MP4_240P",
+    "resolution": 240,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_240P",
+    "url": "cloudmusic/b919/core/1a0a/3ff1c69d03c81a2965b3f7830bc94ab3.mp4",
+    "duration": 161000,
+    "size": 10699168,
+    "width": 426,
+    "height": 240,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "TS",
+    "tagSign": "TS_480P",
+    "resolution": 480,
+    "mvtype": "TS"
+    },
+    "tag": "TS_480P",
+    "url": "cloudmusic/b919/core/1a0a/2cc6ec679e7efd1dfe83c8570f2334c4.m3u8",
+    "duration": 161000,
+    "size": 17989387,
+    "width": 854,
+    "height": 480,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "MP4",
+    "tagSign": "MP4_480P",
+    "resolution": 480,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_480P",
+    "url": "cloudmusic/b919/core/1a0a/2cc6ec679e7efd1dfe83c8570f2334c4.mp4",
+    "duration": 161000,
+    "size": 17076846,
+    "width": 854,
+    "height": 480,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "TS",
+    "tagSign": "TS_720P",
+    "resolution": 720,
+    "mvtype": "TS"
+    },
+    "tag": "TS_720P",
+    "url": "cloudmusic/b919/core/1a0a/6e57e05251569bde4793294959841058.m3u8",
+    "duration": 161000,
+    "size": 27758807,
+    "width": 1280,
+    "height": 720,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "MP4",
+    "tagSign": "MP4_720P",
+    "resolution": 720,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_720P",
+    "url": "cloudmusic/b919/core/1a0a/6e57e05251569bde4793294959841058.mp4",
+    "duration": 161000,
+    "size": 26640875,
+    "width": 1280,
+    "height": 720,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "TS",
+    "tagSign": "TS_1080P",
+    "resolution": 1080,
+    "mvtype": "TS"
+    },
+    "tag": "TS_1080P",
+    "url": "cloudmusic/b919/core/1a0a/09c1397e0a3bca3a6c72cfe2c0669563.m3u8",
+    "duration": 161000,
+    "size": 75627933,
+    "width": 1920,
+    "height": 1080,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "MP4",
+    "tagSign": "MP4_1080P",
+    "resolution": 1080,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_1080P",
+    "url": "cloudmusic/b919/core/1a0a/09c1397e0a3bca3a6c72cfe2c0669563.mp4",
+    "duration": 161000,
+    "size": 73482600,
+    "width": 1920,
+    "height": 1080,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    }
+    ]
+    },
+    "lastRank": 35,
+    "score": 546,
+    "subed": false,
+    "artists": [
+    {
+    "id": 938017,
+    "name": "五条人"
+    }
+    ],
+    "alias": [
+    "电影《哥，你好》"
+    ]
+    },
+    {
+    "id": 14584346,
+    "cover": "http://p1.music.126.net/4uuazAtwLtHG9qdjGhfsHA==/109951168104706071.jpg",
+    "name": "有你的梦境像流星",
+    "playCount": 407,
+    "briefDesc": null,
+    "desc": null,
+    "artistName": "郑俊树J.SHU",
+    "artistId": 12083485,
+    "duration": 0,
+    "mark": 0,
+    "mv": {
+    "authId": 2708911,
+    "status": 0,
+    "id": 14584346,
+    "title": "有你的梦境像流星",
+    "subTitle": "",
+    "appTitle": "",
+    "aliaName": "",
+    "transName": "",
+    "pic4v3": 109951168104702160,
+    "pic16v9": 109951168104706060,
+    "caption": 0,
+    "captionLanguage": "其它",
+    "style": null,
+    "mottos": "",
+    "oneword": null,
+    "appword": "",
+    "stars": null,
+    "desc": "《不期而至》主题曲《有你的梦境像流星》由陈筱舒作曲，关芷耘作词，专业歌手田园、郑俊树J.SHU演唱。\n如果可以，多想抓住你在我梦中的身影；但即使你出现的梦境像流星般划过后坠落，我也会小心翼翼地珍藏，记住我们彼此的刻骨铭心、记住我和自己的约定。",
+    "area": "大陆",
+    "type": "官方版",
+    "subType": "完整版",
+    "neteaseonly": 0,
+    "upban": 1,
+    "topWeeks": "",
+    "publishTime": "2022-12-01",
+    "online": 1669888800202,
+    "score": 290671,
+    "plays": 407,
+    "monthplays": 407,
+    "weekplays": 407,
+    "dayplays": 407,
+    "fee": 0,
+    "artists": [
+    {
+    "id": 12083485,
+    "name": "郑俊树J.SHU"
+    },
+    {
+    "id": 233295,
+    "name": "田园"
+    }
+    ],
+    "videos": [
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "TS",
+    "tagSign": "TS_240P",
+    "resolution": 240,
+    "mvtype": "TS"
+    },
+    "tag": "TS_240P",
+    "url": "cloudmusic/8b55/core/ed0f/fb314ca8283078a164f808bb94a0aa18.m3u8",
+    "duration": 222000,
+    "size": 15602500,
+    "width": 426,
+    "height": 240,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "MP4",
+    "tagSign": "MP4_240P",
+    "resolution": 240,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_240P",
+    "url": "cloudmusic/8b55/core/ed0f/fb314ca8283078a164f808bb94a0aa18.mp4",
+    "duration": 222000,
+    "size": 14525874,
+    "width": 426,
+    "height": 240,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "TS",
+    "tagSign": "TS_480P",
+    "resolution": 480,
+    "mvtype": "TS"
+    },
+    "tag": "TS_480P",
+    "url": "cloudmusic/8b55/core/ed0f/648ae29b79d74d0d99d9b08dfae7e418.m3u8",
+    "duration": 222000,
+    "size": 24342999,
+    "width": 854,
+    "height": 480,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "MP4",
+    "tagSign": "MP4_480P",
+    "resolution": 480,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_480P",
+    "url": "cloudmusic/8b55/core/ed0f/648ae29b79d74d0d99d9b08dfae7e418.mp4",
+    "duration": 222000,
+    "size": 23088883,
+    "width": 854,
+    "height": 480,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "TS",
+    "tagSign": "TS_720P",
+    "resolution": 720,
+    "mvtype": "TS"
+    },
+    "tag": "TS_720P",
+    "url": "cloudmusic/8b55/core/ed0f/5e18b0f3806814de2237902cfb2a3d3f.m3u8",
+    "duration": 222000,
+    "size": 37445471,
+    "width": 1280,
+    "height": 720,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "MP4",
+    "tagSign": "MP4_720P",
+    "resolution": 720,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_720P",
+    "url": "cloudmusic/8b55/core/ed0f/5e18b0f3806814de2237902cfb2a3d3f.mp4",
+    "duration": 222000,
+    "size": 35924083,
+    "width": 1280,
+    "height": 720,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "TS",
+    "tagSign": "TS_1080P",
+    "resolution": 1080,
+    "mvtype": "TS"
+    },
+    "tag": "TS_1080P",
+    "url": "cloudmusic/8b55/core/ed0f/b0c61b3e2aa5733cfbe5251b9add4f98.m3u8",
+    "duration": 222000,
+    "size": 52058579,
+    "width": 1920,
+    "height": 1080,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "MP4",
+    "tagSign": "MP4_1080P",
+    "resolution": 1080,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_1080P",
+    "url": "cloudmusic/8b55/core/ed0f/b0c61b3e2aa5733cfbe5251b9add4f98.mp4",
+    "duration": 222000,
+    "size": 50213308,
+    "width": 1920,
+    "height": 1080,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    }
+    ]
+    },
+    "lastRank": 22,
+    "score": 529,
+    "subed": false,
+    "artists": [
+    {
+    "id": 12083485,
+    "name": "郑俊树J.SHU"
+    },
+    {
+    "id": 233295,
+    "name": "田园"
+    }
+    ]
+    },
+    {
+    "id": 14581597,
+    "cover": "http://p1.music.126.net/FEqSpyNPoPmwCQC168sy0w==/109951168084089758.jpg",
+    "name": "随风",
+    "playCount": 1818,
+    "briefDesc": null,
+    "desc": null,
+    "artistName": "陈钰羲",
+    "artistId": 35022283,
+    "duration": 0,
+    "mark": 0,
+    "mv": {
+    "authId": 2710665,
+    "status": 0,
+    "id": 14581597,
+    "title": "随风",
+    "subTitle": "",
+    "appTitle": "",
+    "aliaName": "",
+    "transName": "",
+    "pic4v3": 109951168084086930,
+    "pic16v9": 109951168084089760,
+    "caption": 0,
+    "captionLanguage": "其它",
+    "style": null,
+    "mottos": "",
+    "oneword": null,
+    "appword": "",
+    "stars": null,
+    "desc": "随风之时有无奈之处\n随风之处有希望播种\n且忘且随风\n且看且从容\n\n等风来的时候，总会幻想风的样子。唱作人陈钰羲新歌《随风》，用温暖的声线，像是风会带着希望、顺着阳光，轻拂在你我身上一般，似耳畔温柔的低语，吹走你我缠绕在冬日里的愁思。",
+    "area": "大陆",
+    "type": "官方版",
+    "subType": "完整版",
+    "neteaseonly": 0,
+    "upban": 1,
+    "topWeeks": "",
+    "publishTime": "2022-11-24",
+    "online": 1669219203090,
+    "score": 301823,
+    "plays": 1818,
+    "monthplays": 1818,
+    "weekplays": 1818,
+    "dayplays": 1818,
+    "fee": 0,
+    "artists": [
+    {
+    "id": 35022283,
+    "name": "陈钰羲"
+    }
+    ],
+    "videos": [
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "TS",
+    "tagSign": "TS_240P",
+    "resolution": 240,
+    "mvtype": "TS"
+    },
+    "tag": "TS_240P",
+    "url": "cloudmusic/obj/core/22388310107/3465000665e9146a6df852fb58cfa572.m3u8",
+    "duration": 248000,
+    "size": 18149318,
+    "width": 426,
+    "height": 240,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "MP4",
+    "tagSign": "MP4_240P",
+    "resolution": 240,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_240P",
+    "url": "cloudmusic/obj/core/22388310107/3465000665e9146a6df852fb58cfa572.mp4",
+    "duration": 248000,
+    "size": 16941935,
+    "width": 426,
+    "height": 240,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "TS",
+    "tagSign": "TS_480P",
+    "resolution": 480,
+    "mvtype": "TS"
+    },
+    "tag": "TS_480P",
+    "url": "cloudmusic/obj/core/22388310107/26666cd11060926f750f85bd93a02e6f.m3u8",
+    "duration": 248000,
+    "size": 28423518,
+    "width": 854,
+    "height": 480,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "MP4",
+    "tagSign": "MP4_480P",
+    "resolution": 480,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_480P",
+    "url": "cloudmusic/obj/core/22388310107/26666cd11060926f750f85bd93a02e6f.mp4",
+    "duration": 248000,
+    "size": 26991210,
+    "width": 854,
+    "height": 480,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "TS",
+    "tagSign": "TS_720P",
+    "resolution": 720,
+    "mvtype": "TS"
+    },
+    "tag": "TS_720P",
+    "url": "cloudmusic/obj/core/22388310107/6877bc8bf0475d505cb38470d125fdf6.m3u8",
+    "duration": 248000,
+    "size": 43722149,
+    "width": 1280,
+    "height": 720,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "MP4",
+    "tagSign": "MP4_720P",
+    "resolution": 720,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_720P",
+    "url": "cloudmusic/obj/core/22388310107/6877bc8bf0475d505cb38470d125fdf6.mp4",
+    "duration": 248000,
+    "size": 41970965,
+    "width": 1280,
+    "height": 720,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "TS",
+    "tagSign": "TS_1080P",
+    "resolution": 1080,
+    "mvtype": "TS"
+    },
+    "tag": "TS_1080P",
+    "url": "cloudmusic/obj/core/22388310107/cbff7cceafad6cabe6fac8fc1e34b355.m3u8",
+    "duration": 248000,
+    "size": 119523749,
+    "width": 1920,
+    "height": 1080,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "MP4",
+    "tagSign": "MP4_1080P",
+    "resolution": 1080,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_1080P",
+    "url": "cloudmusic/obj/core/22388310107/cbff7cceafad6cabe6fac8fc1e34b355.mp4",
+    "duration": 248000,
+    "size": 116163369,
+    "width": 1920,
+    "height": 1080,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    }
+    ]
+    },
+    "lastRank": 49,
+    "score": 526,
+    "subed": false,
+    "artists": [
+    {
+    "id": 35022283,
+    "name": "陈钰羲"
+    }
+    ]
+    },
+    {
+    "id": 14579071,
+    "cover": "http://p1.music.126.net/6tXNnZXneOsLZn-C80UQoA==/109951168050959684.jpg",
+    "name": "水中画",
+    "playCount": 10235,
+    "briefDesc": null,
+    "desc": null,
+    "artistName": "初音ミク",
+    "artistId": 159692,
+    "duration": 0,
+    "mark": 0,
+    "mv": {
+    "authId": 7001,
+    "status": 0,
+    "id": 14579071,
+    "title": "水中画",
+    "subTitle": "",
+    "appTitle": "",
+    "aliaName": "",
+    "transName": "",
+    "pic4v3": 109951168050958300,
+    "pic16v9": 109951168050959680,
+    "caption": 0,
+    "captionLanguage": "其它",
+    "style": null,
+    "mottos": "",
+    "oneword": null,
+    "appword": "",
+    "stars": null,
+    "desc": "索尼音乐娱乐携手超人气虚拟歌手初音未来和国风音乐人蔡翊昇，带来全新单曲《水中画》。初音未来动感十足的音色和蔡翊昇温柔婉转的声线，搭配独具国风特色的歌曲旋律，产生了奇妙的听觉体验。国风＋实验电子，是两种不同风格的碰撞，编曲更是添加众多民乐元素，带来别样的江湖飒爽气息。     \n\n“缘起落，凡尘中窥望南风月。云烟过，戏说人间难辨是与非”，跟随《水中画》歌曲旋律，走进泼墨山水画，一起在音乐里快意江湖。",
+    "area": "大陆",
+    "type": "官方版",
+    "subType": "完整版",
+    "neteaseonly": 0,
+    "upban": 1,
+    "topWeeks": "",
+    "publishTime": "2022-10-31",
+    "online": 1668484800665,
+    "score": 1350484,
+    "plays": 10234,
+    "monthplays": 10234,
+    "weekplays": 10234,
+    "dayplays": 10234,
+    "fee": 0,
+    "artists": [
+    {
+    "id": 159692,
+    "name": "初音ミク"
+    },
+    {
+    "id": 189955,
+    "name": "蔡翊昇"
+    }
+    ],
+    "videos": [
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "TS",
+    "tagSign": "TS_240P",
+    "resolution": 240,
+    "mvtype": "TS"
+    },
+    "tag": "TS_240P",
+    "url": "cloudmusic/b186/core/2dae/f0f4fedbb24cb2380d23bafa7425e9ca.m3u8",
+    "duration": 145000,
+    "size": 10076416,
+    "width": 426,
+    "height": 240,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "MP4",
+    "tagSign": "MP4_240P",
+    "resolution": 240,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_240P",
+    "url": "cloudmusic/b186/core/2dae/f0f4fedbb24cb2380d23bafa7425e9ca.mp4",
+    "duration": 145000,
+    "size": 9368066,
+    "width": 426,
+    "height": 240,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "TS",
+    "tagSign": "TS_480P",
+    "resolution": 480,
+    "mvtype": "TS"
+    },
+    "tag": "TS_480P",
+    "url": "cloudmusic/b186/core/2dae/dacd29b3561119db08b9a26da22fbe1a.m3u8",
+    "duration": 145000,
+    "size": 15751385,
+    "width": 854,
+    "height": 480,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "MP4",
+    "tagSign": "MP4_480P",
+    "resolution": 480,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_480P",
+    "url": "cloudmusic/b186/core/2dae/dacd29b3561119db08b9a26da22fbe1a.mp4",
+    "duration": 145000,
+    "size": 14929815,
+    "width": 854,
+    "height": 480,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "TS",
+    "tagSign": "TS_720P",
+    "resolution": 720,
+    "mvtype": "TS"
+    },
+    "tag": "TS_720P",
+    "url": "cloudmusic/b186/core/2dae/7245035256ad9e71e4c7f80fc819a687.m3u8",
+    "duration": 145000,
+    "size": 24421757,
+    "width": 1280,
+    "height": 720,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "MP4",
+    "tagSign": "MP4_720P",
+    "resolution": 720,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_720P",
+    "url": "cloudmusic/b186/core/2dae/7245035256ad9e71e4c7f80fc819a687.mp4",
+    "duration": 145000,
+    "size": 23428394,
+    "width": 1280,
+    "height": 720,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "TS",
+    "tagSign": "TS_1080P",
+    "resolution": 1080,
+    "mvtype": "TS"
+    },
+    "tag": "TS_1080P",
+    "url": "cloudmusic/b186/core/2dae/611bad9404a50ec54a9c8f4af939b304.m3u8",
+    "duration": 145000,
+    "size": 33715537,
+    "width": 1920,
+    "height": 1080,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "MP4",
+    "tagSign": "MP4_1080P",
+    "resolution": 1080,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_1080P",
+    "url": "cloudmusic/b186/core/2dae/611bad9404a50ec54a9c8f4af939b304.mp4",
+    "duration": 145000,
+    "size": 32524534,
+    "width": 1920,
+    "height": 1080,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    }
+    ]
+    },
+    "lastRank": 45,
+    "score": 497,
+    "subed": false,
+    "artists": [
+    {
+    "id": 159692,
+    "name": "初音ミク"
+    },
+    {
+    "id": 189955,
+    "name": "蔡翊昇"
+    }
+    ]
+    },
+    {
+    "id": 14578794,
+    "cover": "http://p1.music.126.net/jzc9GH0fDEiGVuHseXyMbQ==/109951168047478780.jpg",
+    "name": "DaDiDa",
+    "playCount": 31848,
+    "briefDesc": null,
+    "desc": null,
+    "artistName": "李斯丹妮",
+    "artistId": 8791,
+    "duration": 0,
+    "mark": 0,
+    "mv": {
+    "authId": 0,
+    "status": 0,
+    "id": 14578794,
+    "title": "DaDiDa",
+    "subTitle": "",
+    "appTitle": "",
+    "aliaName": "",
+    "transName": "",
+    "pic4v3": 109951168047481200,
+    "pic16v9": 109951168047478780,
+    "caption": 0,
+    "captionLanguage": "其它",
+    "style": null,
+    "mottos": "",
+    "oneword": null,
+    "appword": "",
+    "stars": null,
+    "desc": "",
+    "area": "大陆",
+    "type": "官方版",
+    "subType": "完整版",
+    "neteaseonly": 0,
+    "upban": 1,
+    "topWeeks": "",
+    "publishTime": "2022-11-10",
+    "online": 1668065480819,
+    "score": 2091138,
+    "plays": 31848,
+    "monthplays": 31848,
+    "weekplays": 31848,
+    "dayplays": 31848,
+    "fee": 0,
+    "artists": [
+    {
+    "id": 8791,
+    "name": "李斯丹妮"
+    }
+    ],
+    "videos": [
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "TS",
+    "tagSign": "TS_240P",
+    "resolution": 240,
+    "mvtype": "TS"
+    },
+    "tag": "TS_240P",
+    "url": "cloudmusic/obj/core/22022649383/6b279b94ec52aa8aec68b40a75fcc0da.m3u8",
+    "duration": 187000,
+    "size": 13072418,
+    "width": 320,
+    "height": 240,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "MP4",
+    "tagSign": "MP4_240P",
+    "resolution": 240,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_240P",
+    "url": "cloudmusic/obj/core/22022649383/6b279b94ec52aa8aec68b40a75fcc0da.mp4",
+    "duration": 187000,
+    "size": 12230643,
+    "width": 320,
+    "height": 240,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "TS",
+    "tagSign": "TS_480P",
+    "resolution": 480,
+    "mvtype": "TS"
+    },
+    "tag": "TS_480P",
+    "url": "cloudmusic/obj/core/22022649383/d9adb3f800a0bdd8c9136c0cc09edc23.m3u8",
+    "duration": 187000,
+    "size": 20395582,
+    "width": 640,
+    "height": 480,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "MP4",
+    "tagSign": "MP4_480P",
+    "resolution": 480,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_480P",
+    "url": "cloudmusic/obj/core/22022649383/d9adb3f800a0bdd8c9136c0cc09edc23.mp4",
+    "duration": 187000,
+    "size": 19398405,
+    "width": 640,
+    "height": 480,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "TS",
+    "tagSign": "TS_720P",
+    "resolution": 720,
+    "mvtype": "TS"
+    },
+    "tag": "TS_720P",
+    "url": "cloudmusic/obj/core/22022649383/03946bb532a1720cf811d81e0e2293bd.m3u8",
+    "duration": 187000,
+    "size": 31376097,
+    "width": 960,
+    "height": 720,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "MP4",
+    "tagSign": "MP4_720P",
+    "resolution": 720,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_720P",
+    "url": "cloudmusic/obj/core/22022649383/03946bb532a1720cf811d81e0e2293bd.mp4",
+    "duration": 187000,
+    "size": 30149421,
+    "width": 960,
+    "height": 720,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "TS",
+    "tagSign": "TS_1080P",
+    "resolution": 1080,
+    "mvtype": "TS"
+    },
+    "tag": "TS_1080P",
+    "url": "cloudmusic/obj/core/22022649383/c5bb068e7a902514e8fe3e19c986136e.m3u8",
+    "duration": 187000,
+    "size": 68575658,
+    "width": 1440,
+    "height": 1080,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "MP4",
+    "tagSign": "MP4_1080P",
+    "resolution": 1080,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_1080P",
+    "url": "cloudmusic/obj/core/22022649383/c5bb068e7a902514e8fe3e19c986136e.mp4",
+    "duration": 187000,
+    "size": 66568869,
+    "width": 1440,
+    "height": 1080,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    }
+    ]
+    },
+    "lastRank": 47,
+    "score": 495,
+    "subed": false,
+    "artists": [
+    {
+    "id": 8791,
+    "name": "李斯丹妮"
+    }
+    ]
+    },
+    {
+    "id": 14565902,
+    "cover": "http://p1.music.126.net/60rk_WGTKNYTbOtN2nmZEQ==/109951167904136112.jpg",
+    "name": "我是守护的光",
+    "playCount": 29406,
+    "briefDesc": null,
+    "desc": null,
+    "artistName": "张杰",
+    "artistId": 6472,
+    "duration": 0,
+    "mark": 0,
+    "mv": {
+    "authId": 2706832,
+    "status": 0,
+    "id": 14565902,
+    "title": "我是守护的光",
+    "subTitle": "",
+    "appTitle": "",
+    "aliaName": "",
+    "transName": "",
+    "pic4v3": 109951167904136590,
+    "pic16v9": 109951167904136110,
+    "caption": 0,
+    "captionLanguage": "其它",
+    "style": null,
+    "mottos": "",
+    "oneword": null,
+    "appword": "",
+    "stars": null,
+    "desc": "大型电视纪录片《锻造雄师向复兴》由中央军委政治工作部宣传局、中央广播电视总台总编室出品，解放军新闻传播中心监制，解放军新闻传播中心广播电视部、中央广播电视总台军事节目中心联合摄制。该片原创5首歌曲，分别由朱海、梁芒、江珂、王剑宇作词，捞仔、王备、栾凯、石栋颖、王霁宇作曲，张杰、周笔畅、阿云嘎、郑棋元、小石头和孩子们演唱，该片总导演魏纪奎监制。该片共8集，每集约50分钟，拟于9月25日在央视综合频道晚8点黄金档播出。",
+    "area": "大陆",
+    "type": "官方版",
+    "subType": "完整版",
+    "neteaseonly": 0,
+    "upban": 1,
+    "topWeeks": "",
+    "publishTime": "2022-09-27",
+    "online": 1664064000172,
+    "score": 565819,
+    "plays": 29363,
+    "monthplays": 29363,
+    "weekplays": 29363,
+    "dayplays": 29363,
+    "fee": 0,
+    "artists": [
+    {
+    "id": 6472,
+    "name": "张杰"
+    }
+    ],
+    "videos": [
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "TS",
+    "tagSign": "TS_240P",
+    "resolution": 240,
+    "mvtype": "TS"
+    },
+    "tag": "TS_240P",
+    "url": "cloudmusic/obj/core/19563179698/af27664d8772e2c622d38efa1b16a176.m3u8",
+    "duration": 247000,
+    "size": 17516886,
+    "width": 426,
+    "height": 240,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "MP4",
+    "tagSign": "MP4_240P",
+    "resolution": 240,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_240P",
+    "url": "cloudmusic/obj/core/19563179698/af27664d8772e2c622d38efa1b16a176.mp4",
+    "duration": 247000,
+    "size": 16307285,
+    "width": 426,
+    "height": 240,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "TS",
+    "tagSign": "TS_480P",
+    "resolution": 480,
+    "mvtype": "TS"
+    },
+    "tag": "TS_480P",
+    "url": "cloudmusic/obj/core/19563179698/27347b2a5a363f8331e295f57b906238.m3u8",
+    "duration": 247000,
+    "size": 27381247,
+    "width": 854,
+    "height": 480,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "MP4",
+    "tagSign": "MP4_480P",
+    "resolution": 480,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_480P",
+    "url": "cloudmusic/obj/core/19563179698/27347b2a5a363f8331e295f57b906238.mp4",
+    "duration": 247000,
+    "size": 25937319,
+    "width": 854,
+    "height": 480,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "TS",
+    "tagSign": "TS_720P",
+    "resolution": 720,
+    "mvtype": "TS"
+    },
+    "tag": "TS_720P",
+    "url": "cloudmusic/obj/core/19563179698/b223378071316b4c66628a16221b9725.m3u8",
+    "duration": 247000,
+    "size": 42133231,
+    "width": 1280,
+    "height": 720,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "MP4",
+    "tagSign": "MP4_720P",
+    "resolution": 720,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_720P",
+    "url": "cloudmusic/obj/core/19563179698/b223378071316b4c66628a16221b9725.mp4",
+    "duration": 247000,
+    "size": 40438344,
+    "width": 1280,
+    "height": 720,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "TS",
+    "tagSign": "TS_1080P",
+    "resolution": 1080,
+    "mvtype": "TS"
+    },
+    "tag": "TS_1080P",
+    "url": "cloudmusic/obj/core/19563179698/4d09c29b9faac2cd0943ca6bf986cb56.m3u8",
+    "duration": 247000,
+    "size": 183020808,
+    "width": 1920,
+    "height": 1080,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "MP4",
+    "tagSign": "MP4_1080P",
+    "resolution": 1080,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_1080P",
+    "url": "cloudmusic/obj/core/19563179698/4d09c29b9faac2cd0943ca6bf986cb56.mp4",
+    "duration": 247000,
+    "size": 178334037,
+    "width": 1920,
+    "height": 1080,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    }
+    ]
+    },
+    "lastRank": 63,
+    "score": 386,
+    "subed": false,
+    "artists": [
+    {
+    "id": 6472,
+    "name": "张杰"
+    }
+    ]
+    },
+    {
+    "id": 14565419,
+    "cover": "http://p1.music.126.net/AH2vnlnik2G2nqN3wJfOeg==/109951167896694532.jpg",
+    "name": "传奇 Legend",
+    "playCount": 32926,
+    "briefDesc": null,
+    "desc": null,
+    "artistName": "李佳隆",
+    "artistId": 12079219,
+    "duration": 0,
+    "mark": 0,
+    "mv": {
+    "authId": 0,
+    "status": 0,
+    "id": 14565419,
+    "title": "传奇 Legend",
+    "subTitle": "",
+    "appTitle": "",
+    "aliaName": "",
+    "transName": "",
+    "pic4v3": 109951167896684860,
+    "pic16v9": 109951167896694530,
+    "caption": 0,
+    "captionLanguage": "其它",
+    "style": null,
+    "mottos": "",
+    "oneword": null,
+    "appword": "",
+    "stars": null,
+    "desc": "",
+    "area": "大陆",
+    "type": "官方版",
+    "subType": "完整版",
+    "neteaseonly": 0,
+    "upban": 1,
+    "topWeeks": "",
+    "publishTime": "2022-09-22",
+    "online": 1663819200313,
+    "score": 342742,
+    "plays": 32915,
+    "monthplays": 32915,
+    "weekplays": 32915,
+    "dayplays": 32915,
+    "fee": 0,
+    "artists": [
+    {
+    "id": 12079219,
+    "name": "李佳隆"
+    }
+    ],
+    "videos": [
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "TS",
+    "tagSign": "TS_240P",
+    "resolution": 240,
+    "mvtype": "TS"
+    },
+    "tag": "TS_240P",
+    "url": "cloudmusic/obj/core/19342117642/2c9d3c0cd49513ebcd62fc525bd8af4b.m3u8",
+    "duration": 190000,
+    "size": 13193677,
+    "width": 572,
+    "height": 240,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "MP4",
+    "tagSign": "MP4_240P",
+    "resolution": 240,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_240P",
+    "url": "cloudmusic/obj/core/19342117642/2c9d3c0cd49513ebcd62fc525bd8af4b.mp4",
+    "duration": 190000,
+    "size": 12258994,
+    "width": 572,
+    "height": 240,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "TS",
+    "tagSign": "TS_480P",
+    "resolution": 480,
+    "mvtype": "TS"
+    },
+    "tag": "TS_480P",
+    "url": "cloudmusic/obj/core/19342117642/5ff976551ef8dea0459610c459f232cf.m3u8",
+    "duration": 190000,
+    "size": 20622309,
+    "width": 1146,
+    "height": 480,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "MP4",
+    "tagSign": "MP4_480P",
+    "resolution": 480,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_480P",
+    "url": "cloudmusic/obj/core/19342117642/5ff976551ef8dea0459610c459f232cf.mp4",
+    "duration": 190000,
+    "size": 19543061,
+    "width": 1146,
+    "height": 480,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "TS",
+    "tagSign": "TS_720P",
+    "resolution": 720,
+    "mvtype": "TS"
+    },
+    "tag": "TS_720P",
+    "url": "cloudmusic/obj/core/19342117642/6ce8c8c776d66be9d04de9d6b0ae6438.m3u8",
+    "duration": 190000,
+    "size": 31700584,
+    "width": 1718,
+    "height": 720,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "MP4",
+    "tagSign": "MP4_720P",
+    "resolution": 720,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_720P",
+    "url": "cloudmusic/obj/core/19342117642/6ce8c8c776d66be9d04de9d6b0ae6438.mp4",
+    "duration": 190000,
+    "size": 30377213,
+    "width": 1718,
+    "height": 720,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "TS",
+    "tagSign": "TS_1080P",
+    "resolution": 1080,
+    "mvtype": "TS"
+    },
+    "tag": "TS_1080P",
+    "url": "cloudmusic/obj/core/19342117642/cbc5f746c0cb112da7df2d9ca0a5a6af.m3u8",
+    "duration": 190000,
+    "size": 98888024,
+    "width": 2578,
+    "height": 1080,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "MP4",
+    "tagSign": "MP4_1080P",
+    "resolution": 1080,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_1080P",
+    "url": "cloudmusic/obj/core/19342117642/cbc5f746c0cb112da7df2d9ca0a5a6af.mp4",
+    "duration": 190000,
+    "size": 96155407,
+    "width": 2578,
+    "height": 1080,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    }
+    ]
+    },
+    "lastRank": 59,
+    "score": 338,
+    "subed": false,
+    "artists": [
+    {
+    "id": 12079219,
+    "name": "李佳隆"
+    }
+    ]
+    },
+    {
+    "id": 14561560,
+    "cover": "http://p1.music.126.net/AFf2-BmZmCYG5H-Eh3SBnQ==/109951167850263688.jpg",
+    "name": "柳絮",
+    "playCount": 2441,
+    "briefDesc": null,
+    "desc": null,
+    "artistName": "张颜齐",
+    "artistId": 12072094,
+    "duration": 0,
+    "mark": 0,
+    "mv": {
+    "authId": 2706458,
+    "status": 0,
+    "id": 14561560,
+    "title": "柳絮",
+    "subTitle": "",
+    "appTitle": "",
+    "aliaName": "",
+    "transName": "",
+    "pic4v3": 109951167850266620,
+    "pic16v9": 109951167850263680,
+    "caption": 0,
+    "captionLanguage": "其它",
+    "style": null,
+    "mottos": "",
+    "oneword": null,
+    "appword": "",
+    "stars": null,
+    "desc": "",
+    "area": "大陆",
+    "type": "官方版",
+    "subType": "完整版",
+    "neteaseonly": 0,
+    "upban": 1,
+    "topWeeks": "",
+    "publishTime": "2022-09-07",
+    "online": 1662523200536,
+    "score": 139416,
+    "plays": 2441,
+    "monthplays": 2441,
+    "weekplays": 2441,
+    "dayplays": 2441,
+    "fee": 0,
+    "artists": [
+    {
+    "id": 12072094,
+    "name": "张颜齐"
+    }
+    ],
+    "videos": [
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "TS",
+    "tagSign": "TS_240P",
+    "resolution": 240,
+    "mvtype": "TS"
+    },
+    "tag": "TS_240P",
+    "url": "cloudmusic/dd97/core/f6f0/4acabf224d67b5089ad5cda52281250e.m3u8",
+    "duration": 225000,
+    "size": 16109352,
+    "width": 426,
+    "height": 240,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "MP4",
+    "tagSign": "MP4_240P",
+    "resolution": 240,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_240P",
+    "url": "cloudmusic/dd97/core/f6f0/4acabf224d67b5089ad5cda52281250e.mp4",
+    "duration": 225000,
+    "size": 15051767,
+    "width": 426,
+    "height": 240,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "TS",
+    "tagSign": "TS_480P",
+    "resolution": 480,
+    "mvtype": "TS"
+    },
+    "tag": "TS_480P",
+    "url": "cloudmusic/dd97/core/f6f0/2aa2a85438a45aac7b40e0768619c425.m3u8",
+    "duration": 225000,
+    "size": 25245024,
+    "width": 854,
+    "height": 480,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "MP4",
+    "tagSign": "MP4_480P",
+    "resolution": 480,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_480P",
+    "url": "cloudmusic/dd97/core/f6f0/2aa2a85438a45aac7b40e0768619c425.mp4",
+    "duration": 225000,
+    "size": 23996759,
+    "width": 854,
+    "height": 480,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "TS",
+    "tagSign": "TS_720P",
+    "resolution": 720,
+    "mvtype": "TS"
+    },
+    "tag": "TS_720P",
+    "url": "cloudmusic/dd97/core/f6f0/8fb5c882788409e7e1acb81ee68aa0de.m3u8",
+    "duration": 225000,
+    "size": 38974475,
+    "width": 1280,
+    "height": 720,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "MP4",
+    "tagSign": "MP4_720P",
+    "resolution": 720,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_720P",
+    "url": "cloudmusic/dd97/core/f6f0/8fb5c882788409e7e1acb81ee68aa0de.mp4",
+    "duration": 225000,
+    "size": 37422452,
+    "width": 1280,
+    "height": 720,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "TS",
+    "tagSign": "TS_1080P",
+    "resolution": 1080,
+    "mvtype": "TS"
+    },
+    "tag": "TS_1080P",
+    "url": "cloudmusic/dd97/core/f6f0/236042d6cb1b628d04d1462d8544f927.m3u8",
+    "duration": 225000,
+    "size": 95588606,
+    "width": 1920,
+    "height": 1080,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "MP4",
+    "tagSign": "MP4_1080P",
+    "resolution": 1080,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_1080P",
+    "url": "cloudmusic/dd97/core/f6f0/236042d6cb1b628d04d1462d8544f927.mp4",
+    "duration": 225000,
+    "size": 92821090,
+    "width": 1920,
+    "height": 1080,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    }
+    ]
+    },
+    "lastRank": -1,
+    "score": 317,
+    "subed": false,
+    "artists": [
+    {
+    "id": 12072094,
+    "name": "张颜齐"
+    }
+    ]
+    },
+    {
+    "id": 14563570,
+    "cover": "http://p1.music.126.net/Fu2cEDp_O1PTuY7mHF6u8A==/109951167876792497.jpg",
+    "name": "云村营地音乐节·昆明站 全程回顾",
+    "playCount": 8560692,
+    "briefDesc": null,
+    "desc": null,
+    "artistName": "网易音乐人",
+    "artistId": 12785088,
+    "duration": 0,
+    "mark": 0,
+    "mv": {
+    "authId": 0,
+    "status": 0,
+    "id": 14563570,
+    "title": "云村营地音乐节·昆明站 全程回顾",
+    "subTitle": "",
+    "appTitle": "",
+    "aliaName": "",
+    "transName": "",
+    "pic4v3": 109951167876802620,
+    "pic16v9": 109951167876792500,
+    "caption": 0,
+    "captionLanguage": "其它",
+    "style": null,
+    "mottos": "",
+    "oneword": null,
+    "appword": "",
+    "stars": null,
+    "desc": "「云村营地音乐节」是网易云音乐推出的首个露营音乐节品牌，打造集“音乐”与“露营”于一体的线下体验空间，为热爱音乐与大自然的你提供休闲好去处。挑个天气晴朗的好日子，一起去云村营地玩吧！在远离城市的云村营地，找到我们新的热闹。久违地晒晒日光，也和朋友们一起浪费时光。\n\n云村营地音乐节·昆明站于2022年8月13日在昆明长湖举行，郭采洁、Matt吕彦良、Mr. Miss、于贞呈现精彩舞台，chill一夏。\n\n",
+    "area": "大陆",
+    "type": "官方版",
+    "subType": "完整版",
+    "neteaseonly": 0,
+    "upban": 1,
+    "topWeeks": "",
+    "publishTime": "2022-09-17",
+    "online": 1663412400233,
+    "score": 486936,
+    "plays": 8560687,
+    "monthplays": 8560687,
+    "weekplays": 8560687,
+    "dayplays": 8560687,
+    "fee": 0,
+    "artists": [
+    {
+    "id": 12785088,
+    "name": "网易音乐人"
+    },
+    {
+    "id": 7762,
+    "name": "郭采洁"
+    },
+    {
+    "id": 12919519,
+    "name": "Matt吕彦良"
+    },
+    {
+    "id": 221425,
+    "name": "Mr. Miss"
+    },
+    {
+    "id": 12798895,
+    "name": "于贞"
+    }
+    ],
+    "videos": [
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "TS",
+    "tagSign": "TS_240P",
+    "resolution": 240,
+    "mvtype": "TS"
+    },
+    "tag": "TS_240P",
+    "url": "cloudmusic/45b8/core/1e06/f867d767d15ca28a0586e813292467ee.m3u8",
+    "duration": 6052000,
+    "size": 425809063,
+    "width": 426,
+    "height": 240,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "MP4",
+    "tagSign": "MP4_240P",
+    "resolution": 240,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_240P",
+    "url": "cloudmusic/45b8/core/1e06/f867d767d15ca28a0586e813292467ee.mp4",
+    "duration": 6052000,
+    "size": 397416520,
+    "width": 426,
+    "height": 240,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "TS",
+    "tagSign": "TS_480P",
+    "resolution": 480,
+    "mvtype": "TS"
+    },
+    "tag": "TS_480P",
+    "url": "cloudmusic/45b8/core/1e06/43f2623eb04500f12a5d62aaa07d5303.m3u8",
+    "duration": 6052000,
+    "size": 667335881,
+    "width": 854,
+    "height": 480,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "MP4",
+    "tagSign": "MP4_480P",
+    "resolution": 480,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_480P",
+    "url": "cloudmusic/45b8/core/1e06/43f2623eb04500f12a5d62aaa07d5303.mp4",
+    "duration": 6052000,
+    "size": 633962076,
+    "width": 854,
+    "height": 480,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "TS",
+    "tagSign": "TS_720P",
+    "resolution": 720,
+    "mvtype": "TS"
+    },
+    "tag": "TS_720P",
+    "url": "cloudmusic/45b8/core/1e06/78aa1451781e8ac2c3efd1696ed3afa3.m3u8",
+    "duration": 6052000,
+    "size": 1029650991,
+    "width": 1280,
+    "height": 720,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "MP4",
+    "tagSign": "MP4_720P",
+    "resolution": 720,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_720P",
+    "url": "cloudmusic/45b8/core/1e06/78aa1451781e8ac2c3efd1696ed3afa3.mp4",
+    "duration": 6052000,
+    "size": 988126874,
+    "width": 1280,
+    "height": 720,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "TS",
+    "tagSign": "TS_1080P",
+    "resolution": 1080,
+    "mvtype": "TS"
+    },
+    "tag": "TS_1080P",
+    "url": "cloudmusic/45b8/core/1e06/785cc0cc7e24e9ea70b0acd8ebbd40a5.m3u8",
+    "duration": 6052000,
+    "size": 3220102728,
+    "width": 1920,
+    "height": 1080,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "MP4",
+    "tagSign": "MP4_1080P",
+    "resolution": 1080,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_1080P",
+    "url": "cloudmusic/45b8/core/1e06/785cc0cc7e24e9ea70b0acd8ebbd40a5.mp4",
+    "duration": 6052000,
+    "size": 3132020086,
+    "width": 1920,
+    "height": 1080,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    }
+    ]
+    },
+    "lastRank": 51,
+    "score": 296,
+    "subed": false,
+    "artists": [
+    {
+    "id": 12785088,
+    "name": "网易音乐人"
+    },
+    {
+    "id": 7762,
+    "name": "郭采洁"
+    },
+    {
+    "id": 12919519,
+    "name": "Matt吕彦良"
+    },
+    {
+    "id": 221425,
+    "name": "Mr. Miss"
+    },
+    {
+    "id": 12798895,
+    "name": "于贞"
+    }
+    ]
+    },
+    {
+    "id": 14576464,
+    "cover": "http://p1.music.126.net/JDwI0J7X9jQsQLSoCvSX-Q==/109951168014127385.jpg",
+    "name": "奔向你",
+    "playCount": 42108,
+    "briefDesc": null,
+    "desc": null,
+    "artistName": "周深",
+    "artistId": 1030001,
+    "duration": 0,
+    "mark": 0,
+    "mv": {
+    "authId": 0,
+    "status": 0,
+    "id": 14576464,
+    "title": "奔向你",
+    "subTitle": "",
+    "appTitle": "",
+    "aliaName": "",
+    "transName": "Lead To Infinity",
+    "pic4v3": 109951168014135570,
+    "pic16v9": 109951168014127400,
+    "caption": 0,
+    "captionLanguage": "其它",
+    "style": null,
+    "mottos": "",
+    "oneword": null,
+    "appword": "",
+    "stars": null,
+    "desc": "",
+    "area": "大陆",
+    "type": "官方版",
+    "subType": "完整版",
+    "neteaseonly": 0,
+    "upban": 1,
+    "topWeeks": "",
+    "publishTime": "2022-10-30",
+    "online": 1667095200402,
+    "score": 2179650,
+    "plays": 42108,
+    "monthplays": 42108,
+    "weekplays": 42108,
+    "dayplays": 42108,
+    "fee": 0,
+    "artists": [
+    {
+    "id": 1030001,
+    "name": "周深"
+    }
+    ],
+    "videos": [
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "TS",
+    "tagSign": "TS_240P",
+    "resolution": 240,
+    "mvtype": "TS"
+    },
+    "tag": "TS_240P",
+    "url": "cloudmusic/obj/core/21414105688/d91bb33e8d7db72fbf7918d36c136d5b.m3u8",
+    "duration": 296000,
+    "size": 20609902,
+    "width": 426,
+    "height": 240,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 240,
+    "type": "MP4",
+    "tagSign": "MP4_240P",
+    "resolution": 240,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_240P",
+    "url": "cloudmusic/obj/core/21414105688/d91bb33e8d7db72fbf7918d36c136d5b.mp4",
+    "duration": 296000,
+    "size": 19178635,
+    "width": 426,
+    "height": 240,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "TS",
+    "tagSign": "TS_480P",
+    "resolution": 480,
+    "mvtype": "TS"
+    },
+    "tag": "TS_480P",
+    "url": "cloudmusic/obj/core/21414105688/80509b9fa4d444da5ceeed988586dee3.m3u8",
+    "duration": 296000,
+    "size": 32350748,
+    "width": 854,
+    "height": 480,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 480,
+    "type": "MP4",
+    "tagSign": "MP4_480P",
+    "resolution": 480,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_480P",
+    "url": "cloudmusic/obj/core/21414105688/80509b9fa4d444da5ceeed988586dee3.mp4",
+    "duration": 296000,
+    "size": 30661123,
+    "width": 854,
+    "height": 480,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "TS",
+    "tagSign": "TS_720P",
+    "resolution": 720,
+    "mvtype": "TS"
+    },
+    "tag": "TS_720P",
+    "url": "cloudmusic/obj/core/21414105688/3c52ee286c9b4b313cc267bf7a89478e.m3u8",
+    "duration": 296000,
+    "size": 49878928,
+    "width": 1280,
+    "height": 720,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 720,
+    "type": "MP4",
+    "tagSign": "MP4_720P",
+    "resolution": 720,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_720P",
+    "url": "cloudmusic/obj/core/21414105688/3c52ee286c9b4b313cc267bf7a89478e.mp4",
+    "duration": 296000,
+    "size": 47815934,
+    "width": 1280,
+    "height": 720,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "TS",
+    "tagSign": "TS_1080P",
+    "resolution": 1080,
+    "mvtype": "TS"
+    },
+    "tag": "TS_1080P",
+    "url": "cloudmusic/obj/core/21414105688/b58b730d230c6eae6f28e45d30a17310.m3u8",
+    "duration": 296000,
+    "size": 153137175,
+    "width": 1920,
+    "height": 1080,
+    "container": "m3u8",
+    "md5": "",
+    "check": false
+    },
+    {
+    "tagSign": {
+    "br": 1080,
+    "type": "MP4",
+    "tagSign": "MP4_1080P",
+    "resolution": 1080,
+    "mvtype": "MP4"
+    },
+    "tag": "MP4_1080P",
+    "url": "cloudmusic/obj/core/21414105688/b58b730d230c6eae6f28e45d30a17310.mp4",
+    "duration": 296000,
+    "size": 148877845,
+    "width": 1920,
+    "height": 1080,
+    "container": "mp4",
+    "md5": "",
+    "check": false
+    }
+    ]
+    },
+    "lastRank": 44,
+    "score": 293,
+    "subed": false,
+    "artists": [
+    {
+    "id": 1030001,
+    "name": "周深"
+    }
+    ],
+    "transNames": [
+    "Lead To Infinity"
+    ]
+    }
+    ],
+    "hasMore": false,
+    "updateTime": 1670132885488
+    }
