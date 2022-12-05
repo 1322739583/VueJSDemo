@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './App'
+import App from './11mapMutations的使用/App'
 import router from './router'
 import store from "./store";
 

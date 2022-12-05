@@ -1,3 +1,16 @@
+:root{
+    --primary-color:#ff9854;
+    --van-tabbar-item-icon-size: 50px !important;
+}
 body{
     font-size: 14px;
+}
+
+/* 是有点问题的，底部还是会露出一点,不过关系不大 */
+.top-page{
+    position: relative;
+    z-index: 9;
+    height: 100vh;
+    background-color: #fff;
+    overflow-y: auto;
 }

@@ -1,13 +1,17 @@
 <template>
-    Home
+  <div class="home">
+    <HomeNavbar />
+    <HomeBanner />
+    <HomeLocation/>
+  </div>
 </template>
 
-<script>
-export default {
-  name: "Home"
-}
+<script setup>
+import HomeNavbar from './cpns/HomeNavbar.vue';
+import HomeBanner from './cpns/HomeBanner.vue';
+import HomeLocation from './cpns/HomeLocation.vue';
 </script>
 
-<style scoped>
+<style lang="less" scoped>
 
 </style>
