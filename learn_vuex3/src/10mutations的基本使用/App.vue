@@ -7,7 +7,7 @@
 
 <script>
 import { mapMutations } from 'vuex';
-
+import { mapState } from 'vuex';
 
 export default {
   name: 'App' ,

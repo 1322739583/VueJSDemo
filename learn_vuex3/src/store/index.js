@@ -19,8 +19,11 @@ export default new Vuex.Store({
     }
   },
   mutations: {
-    increment(state,payload) {
-      state.count+=payload.amount;
+    // increment(state,payload) {
+    //   state.count+=payload.amount;
+    // },
+    increment(state) {
+      state.count++;
     },
     decrement(state) {
       state.count--;

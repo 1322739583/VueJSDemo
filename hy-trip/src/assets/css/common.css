@@ -1,7 +1,14 @@
 :root{
     --primary-color:#ff9854;
     --van-tabbar-item-icon-size: 50px !important;
+    --theme-linear-gradient:linear-gradient(90deg,#fa8c1d,#fcaf3f);
+    --van-rate-icon-full-color:#ffffff;
+    --van-primary-color:var(--primary-color)
+
 }
+
+/*去除滚动条 &::-webkit-scrollbar{display:none}*/
+
 body{
     font-size: 14px;
 }
@@ -13,4 +20,5 @@ body{
     height: 100vh;
     background-color: #fff;
     overflow-y: auto;
+    /*overflow-y: hidden;*/
 }

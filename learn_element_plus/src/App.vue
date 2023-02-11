@@ -16,6 +16,7 @@
 <script >
 export default{
   setup(){
+    
     const  indexList= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     return {
        indexList

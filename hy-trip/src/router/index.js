@@ -26,9 +26,24 @@ export const router = createRouter({
         {
             path:"/city",
             component:()=>import('@/views/city/City.vue'),
-            // meta:{
-            //     hideTabbar:true
-            // }
+            meta:{
+                hideTabbar:true
+            }
+        },
+        {
+            path:"/search",
+            component:()=>import('@/views/search/Search.vue'),
+            meta:{
+                hideTabbar:true
+            }
+        },
+        {
+            //动态路由，传房间id
+            path:"/detail/:id",
+            component:()=>import('@/views/detail/Detail.vue'),
+            meta:{
+                hideTabbar:true
+            }
         }
     ]
 })

@@ -4,6 +4,9 @@
   <!--  <router-link to="/about">About</router-link>-->
   <!--</div>-->
   <router-view/>
+  <div>
+    123
+  </div>
 </template>
 
 <style>

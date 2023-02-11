@@ -18,6 +18,9 @@
 
 </template>
 
+ssh -p22 root@47.87.195.180
+
+
 <script>
 export default {
   name: "Counter",

@@ -4,6 +4,7 @@
         "module": "ESNext",
         "moduleResolution": "Node",
         "allowSyntheticDefaultImports": true,
+        "jsx":"preserve",
         "baseUrl": "./",
         "paths": {
           "@/*": ["src/*"]

@@ -5,16 +5,16 @@
     <router-link to="/favor">收藏</router-link>
     <router-link to="/order">订单</router-link>
     <router-link to="/message">消息</router-link> -->   
-    <TabbarVant />    
+    <TabbarVant v-if="!route.meta.hideTabbar"/>
   </div>
-
 </template>
 
 
 <script setup>
-import { useRouter } from 'vue-router';
+
+import { useRoute } from 'vue-router';
 import TabbarVant from './components/tabbar/TabbarVant.vue';
-const router=useRouter()
+const route=useRoute()
 </script>
 <style scoped>
 </style>
