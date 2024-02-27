@@ -10,11 +10,11 @@
       <!-- <TestIndexBar></TestIndexBar> -->
       <!-- <TestButton></TestButton> -->
       <TestTabbar></TestTabbar>
-      <Box class="box"></Box>
+      <div class="box"></div>
+      <div class="box2"></div>
 </template>
 
-<style scoped>
- .box{
-    background-color: lightcoral;
- }
+<style scoped  >
+   
+   
 </style>

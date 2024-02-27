@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <style rel="stylesheet">
+        #box1 {
+            width: 200px;
+            height: 200px;
+            background-color: lightgreen;
+        }
+        #box2 {
+            width: 180px;
+            height: 180px;
+            background-color: lightskyblue;
+        }
+        #box3 {
+            width: 160px;
+            height: 160px;
+            background-color: lightsalmon;
+        }
+    </style>
+</head>
+<body>
+<!--1.stop-->
+<div id="box1" @click.self="div1Click">
+    div1
+    <div id="box2" @click.self="div2Click">
+        div2
+        <div id="box3" @click.self="div3Click">div3</div>
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: "#box1",
+        data: {},
+        methods: {
+
+            div1Click() {
+                console.log("div1Click")
+            },
+            div2Click() {
+                console.log("div2Click")
+            },
+            div3Click() {
+                console.log("div3Click")
+            },
+
+        }
+    })
+</script>
+
+</body>
+</html>

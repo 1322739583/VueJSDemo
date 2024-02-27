@@ -1,5 +1,5 @@
 <template>
- <van-index-bar>
+ <van-index-bar :index-list="indexList">
   <van-index-anchor index="A" />
   <van-cell title="文本" />
   <van-cell title="文本" />
@@ -31,14 +31,21 @@
   <van-cell title="文本" />
   <van-cell title="文本" />
   <van-cell title="文本" />
+  <van-index-anchor index="E" />
+  <van-cell title="文本" />
+  <van-cell title="文本" />
+  <van-cell title="文本" />
+  <van-cell title="文本" />
+  <van-cell title="文本" />
+  <van-cell title="文本" />
 
   
 </van-index-bar>
 
 </template>
-<script>
-export default {
-}
+<script setup>
+    import {ref} from 'vue'
+    const indexList=ref(['A','B','C','D','E'])
 </script>
 <style scoped>
 

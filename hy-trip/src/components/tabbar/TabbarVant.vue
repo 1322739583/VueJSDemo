@@ -1,10 +1,10 @@
 <template>
   <!-- 用组件就不要自己写样式，文档怎么说就怎么用。 -->
-  <van-tabbar class="tabbar" v-model="curIndex" active-color="#ff9853" @change="onChange">
-    <van-tabbar-item v-for="(item, index) of tabbarDate" :to="item.path" dot="true">
+  <van-tabbar class="tabbar" v-model="curIndex"   active-color="#ff9853" @change="onChange">
+    <van-tabbar-item v-for="(item) of tabbarDate" :to="item.path"  >
       <span>{{ item.title }}</span>
       <template #icon="props">
-        <img :src="props.active ? getAssetsUrl(item.imgActiveUrl) : getAssetsUrl(item.imgUrl)" />
+        <img :src="props.active ? getAssetsUrl(item.imgActiveUrl) : getAssetsUrl(item.imgUrl)" alt="" />
       </template>
     </van-tabbar-item>
   </van-tabbar>
@@ -14,10 +14,12 @@
 <script setup>
 import { tabbarDate } from '@/assets/data/tabbar.js'
 import { getAssetsUrl } from '@/utils/assetsUtil.js'
-import { ref } from 'vue';
-import { useRouter } from 'vue-router'
+import {ref} from "vue";
 
-const curIndex = ref(0);
+const curIndex=ref(0)
+const onChange=()=>{
+
+}
 
 </script>
 
